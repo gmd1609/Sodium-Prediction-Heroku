@@ -39,16 +39,16 @@ def predict():
     output = model.predict([[ Gender, age, Daily_Sodium_intake, Hypertension]])
     if output == 2300:
         res_val = "** Normal sodium consumption **"
-    if output == 1900:
+    elif output == 1900:
         res_val = "** Normal sodium consumption **"
-    if output == 1500:
+    elif output == 1500:
         res_val = "** High sodium consumption **"
-    if output == 2200:
+    elif output == 2200:
         res_val = "** High sodium consumption **"
     else:
-        res_val = "** Sodium Limit **"
+        res_val = "** Sodium Consumption Is Not High, Not Normal **"
 
-    return render_template('index.html', prediction_text='{}'.format(res_val), prediction = 'Predicted Sodium {}'.format(output))
+    return render_template('index.html', prediction_text='{}'.format(res_val), prediction='Predicted Sodium {}'.format(output))
 
 if __name__=="__main__":
     app.run(debug=True)
