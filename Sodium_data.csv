@@ -1,0 +1,200 @@
+Gender,age,Daily Sodium intake,Hypertension,Daily Sodium Limit (mg),Exceed limit or not
+Male ,14 and above,1907,No,2300,Normal sodium consumption
+Male ,14 and above,2503,Yes,1500,High sodium consumption
+Female,14 and above,2574,Yes,1500,High sodium consumption
+Female,9 to 13,2328,No,2200,High sodium consumption
+Female,2 to 3,1730,No,1500,High sodium consumption
+Female,9 to 13,2328,No,2200,High sodium consumption
+Male ,4 to 8,1700,No,1900,Normal sodium consumption
+Male ,14 and above,1986,No,2300,Normal sodium consumption
+Female,9 to 13,2008,No,2200,Normal sodium consumption
+Female,14 and above,2846,Yes,1500,High sodium consumption
+Female,9 to 13,2474,No,2200,High sodium consumption
+Female,9 to 13,1788,No,2200,Normal sodium consumption
+Male ,14 and above,2241,No,2300,Normal sodium consumption
+Male ,9 to 13,1746,No,2200,Normal sodium consumption
+Female,4 to 8,1283,No,1900,Normal sodium consumption
+Male ,9 to 13,2008,No,2200,Normal sodium consumption
+Female,4 to 8,1805,No,1900,Normal sodium consumption
+Female,14 and above,2364,Yes,1500,High sodium consumption
+Female,14 and above,2677,Yes,1500,High sodium consumption
+Female,4 to 8,2000,No,1900,High sodium consumption
+Female,14 and above,2894,Yes,1500,High sodium consumption
+Male ,4 to 8,1580,No,1900,Normal sodium consumption
+Male ,9 to 13,155,No,2200,Normal sodium consumption
+Female,14 and above,2643,Yes,1500,High sodium consumption
+Male ,9 to 13,1745,No,2200,Normal sodium consumption
+Female,4 to 8,1600,No,1900,Normal sodium consumption
+Female,4 to 8,1830,No,1900,Normal sodium consumption
+Male ,9 to 13,2474,No,2200,High sodium consumption
+Male ,4 to 8,2150,No,1900,High sodium consumption
+Female,4 to 8,2304,No,1900,High sodium consumption
+Male ,2 to 3,1006,No,1500,Normal sodium consumption
+Female,2 to 3,1080,No,1500,Normal sodium consumption
+Female,9 to 13,2074,No,2200,Normal sodium consumption
+Female,9 to 13,1788,No,2200,Normal sodium consumption
+Male ,4 to 8,1769,No,1900,Normal sodium consumption
+Male ,14 and above,2806,Yes,1500,High sodium consumption
+Female,9 to 13,1746,No,2200,Normal sodium consumption
+Male ,14 and above,2967,Yes,1500,High sodium consumption
+Female,9 to 13,1545,No,2200,Normal sodium consumption
+Female,14 and above,1844,No,2300,Normal sodium consumption
+Female,4 to 8,1414,No,1900,Normal sodium consumption
+Male ,4 to 8,2300,No,1900,High sodium consumption
+Male ,9 to 13,1677,No,2200,Normal sodium consumption
+Female,14 and above,2953,Yes,1500,High sodium consumption
+Female,4 to 8,2010,No,1900,High sodium consumption
+Female,9 to 13,1618,No,2200,Normal sodium consumption
+Female,14 and above,2545,Yes,1500,High sodium consumption
+Female,4 to 8,1384,No,1900,Normal sodium consumption
+Female,14 and above,2661,Yes,1500,High sodium consumption
+Male ,14 and above,2471,Yes,1500,High sodium consumption
+Male ,14 and above,1846,No,2300,Normal sodium consumption
+Female,14 and above,2452,Yes,1500,High sodium consumption
+Male ,14 and above,2240,No,2300,Normal sodium consumption
+Female,4 to 8,1689,No,1900,Normal sodium consumption
+Female,14 and above,2294,No,2300,Normal sodium consumption
+Female,9 to 13,1788,No,2200,Normal sodium consumption
+Male ,9 to 13,2182,No,2200,Normal sodium consumption
+Male ,14 and above,2173,No,2300,Normal sodium consumption
+Female,4 to 8,1261,No,1900,Normal sodium consumption
+Male ,9 to 13,2010,No,2200,Normal sodium consumption
+Female,4 to 8,1905,No,1900,High sodium consumption
+Female,9 to 13,2124,No,2200,Normal sodium consumption
+Male ,14 and above,2685,Yes,1500,High sodium consumption
+Male ,9 to 13,1647,No,2200,Normal sodium consumption
+Female,9 to 13,1720,No,2200,Normal sodium consumption
+Male ,4 to 8,1654,No,1900,Normal sodium consumption
+Female,9 to 13,1655,No,2200,Normal sodium consumption
+Female,14 and above,2073,No,2300,Normal sodium consumption
+Female,9 to 13,1565,No,2200,Normal sodium consumption
+Male ,14 and above,2025,No,2300,Normal sodium consumption
+Male ,14 and above,2255,No,2300,Normal sodium consumption
+Female,4 to 8,1900,No,1900,Normal sodium consumption
+Male ,14 and above,2550,Yes,1500,High sodium consumption
+Female,9 to 13,2072,No,2200,Normal sodium consumption
+Female,4 to 8,1865,No,1900,Normal sodium consumption
+Female,4 to 8,1903,No,1900,High sodium consumption
+Female,14 and above,2215,No,2300,Normal sodium consumption
+Male ,14 and above,2536,Yes,1500,High sodium consumption
+Female,4 to 8,2069,No,1900,High sodium consumption
+Male ,14 and above,2397,Yes,1500,High sodium consumption
+Female,4 to 8,1760,No,1900,Normal sodium consumption
+Female,14 and above,2246,No,2300,Normal sodium consumption
+Female,4 to 8,1411,No,1900,Normal sodium consumption
+Male ,9 to 13,1745,No,2200,Normal sodium consumption
+Male ,14 and above,2427,Yes,1500,High sodium consumption
+Female,9 to 13,2074,No,2200,Normal sodium consumption
+Male ,14 and above,2286,No,2300,Normal sodium consumption
+Female,4 to 8,2220,No,1900,High sodium consumption
+Female,14 and above,2342,Yes,1500,High sodium consumption
+Female,4 to 8,2309,No,1900,High sodium consumption
+Male ,14 and above,1811,No,2300,Normal sodium consumption
+Male ,14 and above,2117,No,2300,Normal sodium consumption
+Female,4 to 8,1564,No,1900,Normal sodium consumption
+Male ,4 to 8,2322,No,1900,High sodium consumption
+Female,4 to 8,1479,No,1900,Normal sodium consumption
+Female,4 to 8,1991,No,1900,High sodium consumption
+Female,9 to 13,1762,No,2200,Normal sodium consumption
+Male ,9 to 13,1596,No,2200,Normal sodium consumption
+Male ,4 to 8,1357,No,1900,Normal sodium consumption
+Female,4 to 8,2022,No,1900,High sodium consumption
+Male ,14 and above,2135,No,2300,Normal sodium consumption
+Female,9 to 13,2462,No,2200,High sodium consumption
+Female,14 and above,2498,Yes,1500,High sodium consumption
+Female,14 and above,2206,No,2300,Normal sodium consumption
+Female,14 and above,2980,Yes,1500,High sodium consumption
+Female,4 to 8,1979,No,1900,High sodium consumption
+Male ,2 to 3,1481,No,1500,Normal sodium consumption
+Male ,9 to 13,2062,No,2200,Normal sodium consumption
+Female,14 and above,2490,Yes,1500,High sodium consumption
+Male ,9 to 13,1545,No,2200,Normal sodium consumption
+Female,4 to 8,1568,No,1900,Normal sodium consumption
+Female,14 and above,2873,Yes,1500,High sodium consumption
+Female,9 to 13,1606,No,2200,Normal sodium consumption
+Male ,14 and above,2708,Yes,1500,High sodium consumption
+Male ,14 and above,1863,No,2300,Normal sodium consumption
+Female,4 to 8,1202,No,1900,Normal sodium consumption
+Male ,4 to 8,1364,No,1900,Normal sodium consumption
+Female,9 to 13,1618,No,2200,Normal sodium consumption
+Female,14 and above,2128,No,2300,Normal sodium consumption
+Female,4 to 8,2160,No,1900,High sodium consumption
+Male ,9 to 13,1571,No,2200,Normal sodium consumption
+Male ,9 to 13,1603,No,2200,Normal sodium consumption
+Male ,14 and above,1808,No,2300,Normal sodium consumption
+Female,4 to 8,1276,No,1900,Normal sodium consumption
+Female,4 to 8,1655,No,1900,Normal sodium consumption
+Female,9 to 13,1552,No,2200,Normal sodium consumption
+Male ,4 to 8,1780,No,1900,Normal sodium consumption
+Male ,9 to 13,1647,No,2200,Normal sodium consumption
+Female,4 to 8,1209,No,1900,Normal sodium consumption
+Male ,4 to 8,1872,No,1900,Normal sodium consumption
+Female,9 to 13,1846,No,2200,Normal sodium consumption
+Female,4 to 8,2313,No,1900,High sodium consumption
+Female,9 to 13,1778,No,2200,Normal sodium consumption
+Female,14 and above,1965,No,2300,Normal sodium consumption
+Male ,9 to 13,1720,No,2200,Normal sodium consumption
+Male ,14 and above,2492,Yes,1500,High sodium consumption
+Male ,9 to 13,1617,No,2200,Normal sodium consumption
+Female,4 to 8,2417,No,1900,High sodium consumption
+Female,4 to 8,1239,No,1900,Normal sodium consumption
+Female,2 to 3,1009,No,1500,Normal sodium consumption
+Male ,4 to 8,1265,No,1900,Normal sodium consumption
+Male ,14 and above,2007,No,2300,Normal sodium consumption
+Female,4 to 8,1679,No,1900,Normal sodium consumption
+Male ,9 to 13,1655,No,2200,Normal sodium consumption
+Female,4 to 8,1439,No,1900,Normal sodium consumption
+Female,4 to 8,2237,No,1900,High sodium consumption
+Female,9 to 13,2072,No,2200,Normal sodium consumption
+Male ,14 and above,1821,No,2300,Normal sodium consumption
+Male ,9 to 13,1697,No,2200,Normal sodium consumption
+Female,9 to 13,1603,No,2200,Normal sodium consumption
+Female,4 to 8,1742,No,1900,Normal sodium consumption
+Female,9 to 13,1552,No,2200,Normal sodium consumption
+Female,9 to 13,1762,No,2200,Normal sodium consumption
+Male ,4 to 8,2018,No,1900,High sodium consumption
+Male ,9 to 13,1596,No,2200,Normal sodium consumption
+Female,14 and above,1901,No,2300,Normal sodium consumption
+Male ,4 to 8,1828,No,1900,Normal sodium consumption
+Female,14 and above,2227,No,2300,Normal sodium consumption
+Female,4 to 8,1896,No,1900,Normal sodium consumption
+Female,4 to 8,1472,No,1900,Normal sodium consumption
+Female,9 to 13,1634,No,2200,Normal sodium consumption
+Female,9 to 13,1846,No,2200,Normal sodium consumption
+Male ,14 and above,2937,Yes,1500,High sodium consumption
+Male ,4 to 8,1590,No,1900,Normal sodium consumption
+Female,14 and above,2347,Yes,1500,High sodium consumption
+Male ,14 and above,2362,Yes,1500,High sodium consumption
+Female,4 to 8,1678,No,1900,Normal sodium consumption
+Female,9 to 13,2462,No,2200,High sodium consumption
+Female,9 to 13,1778,No,2200,Normal sodium consumption
+Male ,9 to 13,1617,No,2200,Normal sodium consumption
+Male ,9 to 13,1606,No,2200,Normal sodium consumption
+Female,4 to 8,1675,No,1900,Normal sodium consumption
+Male ,9 to 13,2205,No,2200,High sodium consumption
+Female,14 and above,2088,No,2300,Normal sodium consumption
+Female,14 and above,2816,Yes,1500,High sodium consumption
+Female,4 to 8,1218,No,1900,Normal sodium consumption
+Male ,9 to 13,2249,No,2200,High sodium consumption
+Male ,14 and above,2089,No,2300,Normal sodium consumption
+Female,4 to 8,1488,No,1900,Normal sodium consumption
+Male ,14 and above,2638,Yes,1500,High sodium consumption
+Female,14 and above,2016,No,2300,Normal sodium consumption
+Female,4 to 8,1680,No,1900,Normal sodium consumption
+Female,4 to 8,1369,No,1900,Normal sodium consumption
+Male ,9 to 13,1927,No,2200,Normal sodium consumption
+Female,9 to 13,2469,No,2200,High sodium consumption
+Male ,14 and above,1839,No,2300,Normal sodium consumption
+Female,9 to 13,2146,No,2200,Normal sodium consumption
+Female,9 to 13,2062,No,2200,Normal sodium consumption
+Female,9 to 13,2365,No,2200,High sodium consumption
+Female,14 and above,1910,No,2300,Normal sodium consumption
+Male ,4 to 8,1860,No,1900,Normal sodium consumption
+Male ,9 to 13,1964,No,2200,Normal sodium consumption
+Female,14 and above,2238,No,2300,Normal sodium consumption
+Male ,2 to 3,1044,No,1500,Normal sodium consumption
+Female,9 to 13,1571,No,2200,Normal sodium consumption
+Female,9 to 13,2376,No,2200,High sodium consumption
+Female,4 to 8,1780,No,1900,Normal sodium consumption
+Male ,14 and above,2244,No,2300,Normal sodium consumption
+Male ,9 to 13,2460,No,2200,High sodium consumption

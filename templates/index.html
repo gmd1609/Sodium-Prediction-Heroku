@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sodium Limit Prediction System</title>
+</head>
+
+<body>
+<div class="wrapper">
+    <h1 style="color: black;font-family: courier;">SODIUM LIMIT PREDICTION SYSTEM</h1>
+        <form action="{{ url_for('predict')}}" method="post" >
+                <br>
+                <h2 style="color: black;font-family: courier;">Enter Required Data  ->>></h2>
+                <br>
+                <br>
+                <h3 style="color: black;font-family: courier; text-align:left ">Gender</h3>
+                <select style=" height: 35px; width: 100%; border-style:double; border-color: black; border-color: black; position: relative;
+                display: inline-block; " name="Gender" id="Gender" class="form-control rounded-pill">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br>
+                <br>
+                <h3 style="color: black;font-family: courier; text-align:left">Age</h3>
+                <select style="height: 35px;width: 100%; border-style:double; border-color: black;"  class="input border" name="age" id="age" class="form-control rounded-pill">
+                    <option value="14 and above">14 and above</option>
+                    <option value="9 to 13">9 to 13</option>
+                    <option value="2 to 3">2 to 3</option>
+                    <option value="4 to 8">4 to 8</option>
+                </select>
+                <br>
+                <br>
+                <h3 style="color: black;font-family: courier; text-align:left">Daily Sodium intake</h3>
+                <input style="height: 35px;width: 100%; border-style: double; border-color: black;" class="input border" type="text" name="Daily Sodium intake" placeholder="Daily Sodium intake" required="required" />
+                <br>
+                <br>
+                <br>
+                <h3 style="color: black;font-family: courier; text-align:left">Hypertension</h3>
+                <select style="height: 35px;width: 100%; border-style:double; border-color: black;"  class="input border" name="Hypertension" id="Hypertension" class="form-control rounded-pill">
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                
+                <!-- Show button -->
+                
+                <div class="btn">
+                <input type="submit">
+                </div>
+
+           <!-- Show predicted output using ML model --> 
+            <br>
+            <br>
+            <div>
+                <center>
+                  <h2 style="color: black">{{ prediction_text }}</h2>
+                </center>
+            </div>
+
+        </form>
+</div>
+
+
+
+    <style>
+        body {
+            background-color: hsla(50, 33%, 25%, .75);
+            text-align: center;
+            padding: 0px;
+        }
+
+.form-control rounded-pill
+
+        .full-page
+{
+    height: 100%;
+	width: 100%;
+	background-color: #00B2EE ;  
+	/*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),"{{ user_image }}"; */
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f; 
+	border-radius: 30px;
+}
+
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+
+        #research {
+            font-size: 18px;
+            width: 100px;
+            height: 23px;
+            top: 23px;
+        }
+        
+        #box {
+            border-radius: 60px;
+            border-color: 45px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(168, 131, 61);
+            font-size: medium;
+            position: absolute;
+            width: 700px;
+            bottom: 9%;
+            height: 850px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+        
+        #fuel {
+            width: 83px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 20px;
+        }
+        
+        #fuel:hover {
+            background-color: coral;
+        }
+        
+        #research {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+        
+        #research:hover {
+            background-color: coral;
+        }
+        
+        #resea {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+        
+        #resea:hover {
+            background-color: coral;
+        }
+        
+        #sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+        
+        #sub:hover {
+            background-color: darkcyan;
+        }
+        
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+
+        }
+        .wrapper{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            max-width: 750px;
+            width: 100%;
+            height: 85%;
+            background: #fff;
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+        }
+        .wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: black;
+/*  background: #fece0c; */
+ /* color: #332902; */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+    </style>
+</body>
+
+</html>

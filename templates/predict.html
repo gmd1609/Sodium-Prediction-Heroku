@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sodium Limit Prediction System</title>
+    </head>
+    <body>
+        {% if(output == 2300 | output == 1900) %}
+        <h2 style="color: black;font-family: courier;">Normal sodium consumption</h2>
+        {% endif %}
+        {% if(output == 1500 | output == 2200) %}
+        <h2 style="color: black;font-family: courier;">High sodium consumption</h2>
+        {% endif %}
+    </body>
+
+</html>
