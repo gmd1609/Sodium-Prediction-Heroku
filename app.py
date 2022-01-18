@@ -46,9 +46,9 @@ def predict():
     if output == 2200:
         res_val = "** High sodium consumption **"
     else:
-        res_val = "** Limit Exceed **"
+        res_val = "** Sodium Limit **"
 
-    return render_template('index.html', prediction_text='{}'.format(res_val))
+    return render_template('index.html', prediction_text='{}'.format(res_val), prediction = 'Predicted Sodium {}'.format(output))
 
 if __name__=="__main__":
     app.run(debug=True)
