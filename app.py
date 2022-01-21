@@ -48,7 +48,7 @@ def predict():
     else:
         res_val = "** Sodium Consumption Is Not High, Not Normal **"
 
-    return render_template('index.html', prediction_text='{}'.format(res_val), prediction='Predicted Sodium {}'.format(output))
+    return render_template('index.html', prediction_text='{}'.format(res_val))
 
 if __name__=="__main__":
     app.run(debug=True)
